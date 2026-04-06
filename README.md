@@ -1,7 +1,5 @@
 # Improving PINNs for Seismic Wave Propagation and Full Waveform Inversion
 
-Final AMATH 445 project (Winter 2026).
-
 This repository reproduces and extends the PINN-based seismic inversion framework from:
 
 Rasht-Behesht, M., Huber, C., Shukla, K., & Karniadakis, G. E. (2022). *Physics-Informed Neural Networks (PINNs) for Wave Propagation and Full Waveform Inversions.* Journal of Geophysical Research: Solid Earth, 127.
