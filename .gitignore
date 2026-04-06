@@ -1,0 +1,63 @@
+.DS_Store
+
+# OS/editor noise
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Python cache/bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Python environments
+.venv/
+venv/
+env/
+ENV/
+
+# Notebooks/checkpoints
+.ipynb_checkpoints/
+
+# Logs and temporary runtime files
+*.log
+*.tmp
+*.temp
+
+# Model/data artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.npy
+*.npz
+
+# Generated experiment outputs
+results/**
+!results/.gitkeep
+
+# LaTeX build artifacts
+tex/*.aux
+tex/*.bbl
+tex/*.bcf
+tex/*.blg
+tex/*.fdb_latexmk
+tex/*.fls
+tex/*.log
+tex/*.nav
+tex/*.out
+tex/*.run.xml
+tex/*.snm
+tex/*.synctex.gz
+tex/*.toc
+
+# Optional compiled report outputs (uncomment if you do not want PDFs tracked)
+# tex/*.pdf
+# *.pdf
